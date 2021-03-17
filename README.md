@@ -2,6 +2,25 @@
 
 This is COMS4119 Homework, Programming Part 
 
+## New EDIT:
+A very good mail service called [Mailtrap](https://mailtrap.io/). It can fake a mail server in 
+```python
+smtp.mailtrap.io:2525
+```
+Notice that the port number is 2525.
+
+With the mailtrap.io, we can even fake from address and to address. Mailtrap also gives an SMTP interface to learn
+
+![mailtrap](images/mailtrap_curl.png)
+
+You can refer to [mailtrap version](smtp_mailtrap.py) for more detail.
+
+```sh
+python smtp_mailtrap.py
+```
+
+
+
 ## How to run
 For [plain text version](smtp.py), just change the fromaddr and toaddr and mailserver with your own authentication information, and the message you want, then run python file
 ```sh
